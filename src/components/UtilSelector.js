@@ -35,7 +35,7 @@ export default class UtilSelector extends React.Component {
     render() {
         const tabList = this.props.tabs.map((t, i) => {
             const buttonClassNames = ["button"];
-            buttonClassNames.push(this.state.active === i ? "is-link" : "is-white");
+            buttonClassNames.push(this.state.active === i ? "is-link" : "is-light");
 
             return (
                 <li key={`util-selector-tab-${t.id}-${i}`}>
