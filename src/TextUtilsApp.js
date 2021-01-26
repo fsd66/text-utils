@@ -5,12 +5,26 @@ import Header from "./components/Header";
 import UtilSelector from "./components/UtilSelector";
 import RandomCapitalizer from "./components/RandomCapitalizer";
 import DiscordBlockTextifyer from "./components/DiscordBlockTextifyer";
+import TextAestheticizer from "./components/TextAestheticizer";
 
 export default class TextUtilsApp extends React.Component {
   static defaultProps = {
     utilities: [
-      <RandomCapitalizer />,
-      <DiscordBlockTextifyer />
+      {
+        html: <RandomCapitalizer />,
+        title: "Random Captializer",
+        id: "random-capitalizer"
+      },
+      {
+        html: <DiscordBlockTextifyer />,
+        title: "Discord Block Textifyer",
+        id: "discord-block-textifyer"
+      },
+      {
+        html: <TextAestheticizer />,
+        title: "Text Aestheticizer",
+        id: "text-aestheticizer"
+      }
     ],
     defaultUtil: 0
   }
@@ -24,12 +38,12 @@ export default class TextUtilsApp extends React.Component {
   }
 
   render() {
-    const utilsHtml = this.props.utilities?.[this.state.currentUtil] || (<div>Unable to load utility</div>);
+    const utilsHtml = this.props.utilities?.[this.state.currentUtil]?.html || (<div>Unable to load utility</div>);
 
     return (
       <div className="App container">
         <Header />
-        <UtilSelector tabSelectedCallback={selectedIndex => this.setState({ currentUtil: selectedIndex })} />
+        <UtilSelector tabs={this.props.utilities} tabSelectedCallback={selectedIndex => this.setState({ currentUtil: selectedIndex })} />
         {utilsHtml}
       </div>
     );
