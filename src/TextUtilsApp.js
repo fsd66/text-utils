@@ -7,6 +7,7 @@ import RandomCapitalizer from "./components/RandomCapitalizer";
 import DiscordBlockTextifyer from "./components/DiscordBlockTextifyer";
 import TextAestheticizer from "./components/TextAestheticizer";
 import TextPekofyer from "./components/TextPekofyer";
+import TextReversifyer from "./components/TextReversifyer";
 
 export default class TextUtilsApp extends React.Component {
   static defaultProps = {
@@ -23,13 +24,18 @@ export default class TextUtilsApp extends React.Component {
       },
       {
         html: <TextAestheticizer />,
-        title: "Text Aestheticizer",
+        title: "Aestheticizer",
         id: "text-aestheticizer"
       },
       {
         html: <TextPekofyer />,
-        title: "👯 PEKO PEKO PEKO",
+        title: "ぺーこぺこぺこ！！！",
         id: "pekofyer"
+      },
+      {
+        html: <TextReversifyer />,
+        title: "Reversifyer",
+        id: "text-reversifyer"
       }
     ],
     defaultUtil: 0
