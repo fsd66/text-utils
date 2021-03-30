@@ -20,6 +20,6 @@ export default class TextAestheticizer extends React.Component {
 
     render() {
 
-        return <TextTransformer inputPlaceholderText={`Input text to ${Aestheticizer.aestheticize("aestheticize")}`} outputPlaceholderText={Aestheticizer.aestheticize("Aestheticized ouput")} onChangeEvent={this.onChangeEvent} outputText={this.state.outputText} />
+        return <TextTransformer inputPlaceholderText={`Input text to ${Aestheticizer.aestheticize("aestheticize")}`} outputPlaceholderText={Aestheticizer.aestheticize("Aestheticized output")} onChangeEvent={this.onChangeEvent} outputText={this.state.outputText} />
     }
 }
