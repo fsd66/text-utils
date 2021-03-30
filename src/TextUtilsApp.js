@@ -28,14 +28,14 @@ export default class TextUtilsApp extends React.Component {
         id: "text-aestheticizer"
       },
       {
-        html: <TextPekofyer />,
-        title: "ぺーこぺこぺこ！！！",
-        id: "pekofyer"
-      },
-      {
         html: <TextReversifyer />,
         title: "Reversifyer",
         id: "text-reversifyer"
+      },
+      {
+        html: <TextPekofyer />,
+        title: "ぺーこぺこぺこ！！！",
+        id: "pekofyer"
       }
     ],
     defaultUtil: 0
