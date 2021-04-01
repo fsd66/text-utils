@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class EmbeddedVideoRandomizer extends React.Component {
+export default class EmbeddedVideoRandomizer extends React.PureComponent {
     static defaultProps = {
         videoSize: { width: 560, height: 315 },
         allow: [
@@ -27,6 +27,7 @@ export default class EmbeddedVideoRandomizer extends React.Component {
             }
         ]
     }
+
     render() {
         const selectedVideo = this.props.videos[Math.floor(Math.random() * this.props.videos.length)];
 

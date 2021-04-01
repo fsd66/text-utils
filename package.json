@@ -12,7 +12,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "sass": "^1.32.7",
-    "text-rand-utils": "^1.0.6",
+    "text-rand-utils": "^1.0.8",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
