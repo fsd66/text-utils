@@ -15,7 +15,7 @@ export default class EmbeddedVideoRandomizer extends React.PureComponent {
         videos: [
             {
                 src: "https://www.youtube.com/embed/uRB1G0cKpIk",
-                title: "peko-miko-song"
+                title: "peko-miko-daisensou-song"
             },
             {
                 src: "https://www.youtube.com/embed/_KTwDH_KQ_g",
@@ -24,6 +24,10 @@ export default class EmbeddedVideoRandomizer extends React.PureComponent {
             {
                 src: "https://www.youtube.com/embed/AAr2lHZLNyU",
                 title: "discommunication-alien-pekover-song"
+            },
+            {
+                src: "https://www.youtube.com/embed/ZRCzLtCsIQs",
+                title: "peko-moon-turing-love-pekover-song"
             }
         ]
     }
