@@ -28,6 +28,10 @@ export default class EmbeddedVideoRandomizer extends React.PureComponent {
             {
                 src: "https://www.youtube.com/embed/ZRCzLtCsIQs",
                 title: "peko-moon-turing-love-pekover-song"
+            },
+            {
+                src: "https://www.youtube.com/embed/AAr2lHZLNyU",
+                title: "cinderella-pekover-song"
             }
         ]
     }
