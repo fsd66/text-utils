@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/text-utils/static/css/main.fa8de36f.chunk.css",
-    "main.js": "/text-utils/static/js/main.366fcbc0.chunk.js",
-    "main.js.map": "/text-utils/static/js/main.366fcbc0.chunk.js.map",
-    "runtime-main.js": "/text-utils/static/js/runtime-main.dc9165b6.js",
-    "runtime-main.js.map": "/text-utils/static/js/runtime-main.dc9165b6.js.map",
-    "static/js/2.a6822d8c.chunk.js": "/text-utils/static/js/2.a6822d8c.chunk.js",
-    "static/js/2.a6822d8c.chunk.js.map": "/text-utils/static/js/2.a6822d8c.chunk.js.map",
-    "static/js/3.ad617a6a.chunk.js": "/text-utils/static/js/3.ad617a6a.chunk.js",
-    "static/js/3.ad617a6a.chunk.js.map": "/text-utils/static/js/3.ad617a6a.chunk.js.map",
+    "main.css": "/text-utils/static/css/main.54558337.chunk.css",
+    "main.js": "/text-utils/static/js/main.6bc9f156.chunk.js",
+    "main.js.map": "/text-utils/static/js/main.6bc9f156.chunk.js.map",
+    "runtime-main.js": "/text-utils/static/js/runtime-main.80cf5a93.js",
+    "runtime-main.js.map": "/text-utils/static/js/runtime-main.80cf5a93.js.map",
+    "static/js/2.1451bbe9.chunk.js": "/text-utils/static/js/2.1451bbe9.chunk.js",
+    "static/js/2.1451bbe9.chunk.js.map": "/text-utils/static/js/2.1451bbe9.chunk.js.map",
+    "static/js/3.8494a811.chunk.js": "/text-utils/static/js/3.8494a811.chunk.js",
+    "static/js/3.8494a811.chunk.js.map": "/text-utils/static/js/3.8494a811.chunk.js.map",
     "index.html": "/text-utils/index.html",
-    "static/css/main.fa8de36f.chunk.css.map": "/text-utils/static/css/main.fa8de36f.chunk.css.map",
-    "static/js/2.a6822d8c.chunk.js.LICENSE.txt": "/text-utils/static/js/2.a6822d8c.chunk.js.LICENSE.txt",
+    "static/css/main.54558337.chunk.css.map": "/text-utils/static/css/main.54558337.chunk.css.map",
+    "static/js/2.1451bbe9.chunk.js.LICENSE.txt": "/text-utils/static/js/2.1451bbe9.chunk.js.LICENSE.txt",
     "static/media/pekora-laugh-1.1c14e6ad.mp3": "/text-utils/static/media/pekora-laugh-1.1c14e6ad.mp3",
     "static/media/pekora-laugh-2.9cdf48f0.mp3": "/text-utils/static/media/pekora-laugh-2.9cdf48f0.mp3",
     "static/media/pekora-laugh-3.b3347c20.mp3": "/text-utils/static/media/pekora-laugh-3.b3347c20.mp3",
@@ -22,9 +22,9 @@
     "static/media/pekora-laugh-8.e8b3a6dd.mp3": "/text-utils/static/media/pekora-laugh-8.e8b3a6dd.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc9165b6.js",
-    "static/js/2.a6822d8c.chunk.js",
-    "static/css/main.fa8de36f.chunk.css",
-    "static/js/main.366fcbc0.chunk.js"
+    "static/js/runtime-main.80cf5a93.js",
+    "static/js/2.1451bbe9.chunk.js",
+    "static/css/main.54558337.chunk.css",
+    "static/js/main.6bc9f156.chunk.js"
   ]
 }
