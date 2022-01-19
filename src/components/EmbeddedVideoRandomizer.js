@@ -2,7 +2,8 @@ import React from "react";
 
 export default class EmbeddedVideoRandomizer extends React.PureComponent {
     static defaultProps = {
-        videoSize: { width: 560, height: 315 },
+        //videoSize: { width: 560, height: 315 },
+        fullscreen: false,
         allow: [
             "accelerometer",
             "autoplay",
@@ -30,19 +31,42 @@ export default class EmbeddedVideoRandomizer extends React.PureComponent {
                 title: "peko-moon-turing-love-pekover-song"
             },
             {
-                src: "https://www.youtube.com/embed/AAr2lHZLNyU",
+                src: "https://www.youtube.com/embed/aozNBX2dF6c",
                 title: "cinderella-pekover-song"
+            },
+            {
+                src: "https://www.youtube.com/embed/IVOMj4x2VVg",
+                title: "iiwake-bunny-song"
+            },
+            {
+                src: "https://www.youtube.com/embed/F61eDAXtmnw",
+                title: "interact-fantasia-pekolab-song"
             }
         ]
     }
 
     render() {
         const selectedVideo = this.props.videos[Math.floor(Math.random() * this.props.videos.length)];
+        const iFrameProps = {
+            src: selectedVideo.src,
+            frameBorder: "0",
+            allow: this.props.allow.join("; ")
+        }
+        const classNames = [];
+
+        if (this.props.fullscreen) {
+            classNames.push("video-fullscreen");
+            iFrameProps.autoplay = true;
+
+        } else {
+            classNames.push("video-fullwidth");
+            iFrameProps.allowFullScreen = true;
+        }
 
         return (
-            <React.Fragment>
-                <iframe title={selectedVideo.title} width={this.props.videoSize.width} height={this.props.videoSize.height} src={selectedVideo.src} frameBorder="0" allow={this.props.allow.join("; ")} allowFullScreen></iframe>
-            </React.Fragment>
+            <div className="video-container">
+                <iframe title={selectedVideo.title} className={classNames.join(" ")} {...iFrameProps}></iframe>
+            </div>
         )
     }
 }
