@@ -8,6 +8,7 @@ import DiscordBlockTextifyer from "./components/DiscordBlockTextifyer";
 import TextAestheticizer from "./components/TextAestheticizer";
 import TextPekofyer from "./components/TextPekofyer";
 import TextReversifyer from "./components/TextReversifyer";
+import TextAmogusizer from "./components/TextAmogusizer";
 
 export default class TextUtilsApp extends React.Component {
   static defaultProps = {
@@ -36,6 +37,11 @@ export default class TextUtilsApp extends React.Component {
         html: <TextPekofyer />,
         title: "ぺーこぺこぺこ！！！",
         id: "pekofyer"
+      },
+      {
+        html: <TextAmogusizer />,
+        title: "AMOGUS",
+        id: "amogusizer"
       }
     ],
     defaultUtil: 0
